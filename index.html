@@ -9,13 +9,34 @@
 </head>
 <body>
     <!--TITLE AREA FOR GAME IN HEADING TAG-->
+    <heading>Weird Rock Toucher!</heading>
     <!--RULES OF THE GAME IN P TAG-->
+    <p>
+        <ul>
+            You get a random number in the #goalz box
+            You click on the pretty rocks
+            The pretty rocks will have a random, yet consistent number given to them
+            Try to do maths with the relative unknown
+            You match the #goalz number, you win
+            If you don't match it, you lose
+            Sucks to suck
+        </ul>
+    </p>
     <!--GOAL NUMBER BOX IN CONTAINER DIV. NEEDS TO DISPLAY THE RANDOM NUMBER GENERATED AT THE BEGINNING OF EACH GAME.-->
+    <div id="goalBox"></div>
     <!--RIGHT NEXT TO GOAL NUMBER WILL BE WINS/LOSSES TALLY. THIS WILL NEED TO GO UP BY ONE BASED ON RESULTS OF THE GAME.-->
+    <div id="shameOrFame"></div>
     <!--4 SEPARATE GEM IMAGES THAT WILL BE CLICKABLE AND LINKED TO A VALUE.-->
+    <div id="rockSlide">
+        <img src="images/Other rock.jpg" alt="Rock">
+        <img src="images/rocky.jpg" alt="Rocky">
+        <img src="images/Rock_Lee.png" alt="Rockier">
+        <img src="images/rocket.jpg" alt="Rocket">
+    </div>
     <!--A BOX THAT CONTAINS A P TAG. IT WILL SAY SOMETHING LIKE "YOUR CURRENT SCORE IS:"-->
+    <p>Your current score is:</p>
     <!--A BOX THAT DISPLAYS THE SUM OF OF THE CLICKED ITEMS.-->
-
+    <div id="sumDumpster"></div>
 
 </body>
 <script type="text/javascript" src="assets/javascript/game.js"></script>
