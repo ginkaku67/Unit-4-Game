@@ -30,7 +30,6 @@ ul {
     font-size: 20px;
 
 }
-/**div goalBox**/
-/**div shameOrFame**/
-/**div sumDumpster**/
-/**div rockSlide**/
+#crystalDumpster {
+    font-size: 30px;
+}

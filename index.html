@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="javascript/jquery-3.4.1.js"></script>
 </head>
 
 <body>
@@ -25,18 +26,16 @@
     <!--GOAL NUMBER BOX IN CONTAINER DIV. NEEDS TO DISPLAY THE RANDOM NUMBER GENERATED AT THE BEGINNING OF EACH GAME.-->
     <div id="goalBox"></div>
     <!--RIGHT NEXT TO GOAL NUMBER WILL BE WINS/LOSSES TALLY. THIS WILL NEED TO GO UP BY ONE BASED ON RESULTS OF THE GAME.-->
-    <div id="wins">
-        <p>Wins</p>
-    </div>
+    <div id="results"></div>
     <div class="counter">
 
     </div>
     <!--4 SEPARATE GEM IMAGES THAT WILL BE CLICKABLE AND LINKED TO A VALUE.-->
     <div class="crystal-image">
-        <img src="images/Other rock.jpg" alt="Rock">
-        <img src="images/rocky.jpg" alt="Rocky">
-        <img src="images/Rock_Lee.png" alt="Rockier">
-        <img src="images/rocket.jpg" alt="Rocket">
+        <img src="images/Other rock.jpg" alt="Rock" id="Rock">
+        <img src="images/rocky.jpg" alt="Rocky" id="Rocky">
+        <img src="images/Rock_Lee.png" alt="Rockier" id="Rockier">
+        <img src="images/rocket.jpg" alt="Rocket" id="Rocket">
     </div>
     <!--A BOX THAT CONTAINS A P TAG. IT WILL SAY SOMETHING LIKE "YOUR CURRENT SCORE IS:"-->
     <p>Your current score is:</p>
@@ -45,7 +44,7 @@
 
 </body>
 
-<script src="javascript/jquery-3.4.1.js"></script>
+
 <script type="text/javascript" src="javascript/game.js"></script>
 
 </html>
